@@ -18,3 +18,11 @@ def test_bucketing_by_number_of_cycles():
 
 if __name__ == '__main__':
   test_bucketing_by_number_of_cycles()
+for i in counts:
+  if i<400:
+    lowCount=lowCount+1
+  elif i==400 and i<=919:
+    mediumCount=mediumCount+1
+  else
+     highCount=highCount+1
+ print("Done counting:)")
